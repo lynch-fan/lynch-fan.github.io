@@ -39,7 +39,7 @@ nav a:hover{
 main{
    background-color:rgb(105, 50, 50);
     width: 100%;
-    height:2000px;
+    height:2200px;
     margin-left: auto;
     margin-right: auto;
     padding-top: 40px;
@@ -68,6 +68,7 @@ overflow: hidden;
 .text {
     background-color: rgb(105, 50, 50);
     font-family: Arial, Helvetica, sans-serif;
+    border-radius: 25px;
     text-align: left;
     width: 600px;
     height: 600px;
@@ -86,7 +87,9 @@ overflow: hidden;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 40px;
-    padding-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    float: left;
     overflow: hidden;
 }
 
@@ -104,19 +107,39 @@ footer{
 
 .image {
     background-color: rgb(97, 47, 47);
-    width: 600px;
-    height: 600px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-style: groove;
+    border-radius: 25px;
+    width: 400px;
+    height: 650px;
     float: left;
-    padding: 20px;
-    margin-left: 14px; 
-    margin-right: 14px;
-    margin-bottom: 14px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-left: 20px;
+    margin-left: 20px;
     overflow: hidden;
    
 }
+.table {
+    border-collapse: collapse;
+    width: 700px;
+    height: 400px;
+    padding: 10px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+  }
 
+  td {
+    padding: 15px;
+  }
+
+  tr {
+    border: 1px solid black;
+    background-color: rgb(139, 73, 73);
+    height: 50px;
+    vertical-align: bottom;
+  }
+
+  tr:hover {background-color:rgb(209, 152, 152);
+}
 
 img{
     width: 100%;
