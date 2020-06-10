@@ -37,7 +37,7 @@ nav a:hover{
 article { 
     background-color:  rgb(78, 34, 34);
     width: 100%;
-    height: 300px;
+    height: 600px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 40px;
@@ -51,23 +51,23 @@ article {
         border-radius: 25px;
         text-align: left;
         width: 800px;
-        height: 300px;
+        height: 400px;
         float: left;
-        padding: 10px;
-        margin-left: 14px; 
-        margin-right: 14px;
+        padding: 15px;
+        margin-left: 100px; 
+        margin-right: 100px;
         overflow: hidden;
     }
 
 div.gallery {
     margin: 5px;
-    border: 1px solid #ccc;
     float: left;
     width: 180px;
+    padding: 10px;
   }
   
   div.gallery:hover {
-    border: 1px solid #777;
+    border: 8px solid rgb(105, 50, 50);
   }
   
   div.gallery img {
@@ -79,17 +79,13 @@ div.gallery {
 main{
     background-color:rgb(105, 50, 50);
      width: 100%;
-     height:5000px;
+     height:1966px;
      margin-left: auto;
      margin-right: auto;
      padding-top: 40px;
      padding-left: 40px;
- }
- .center2 {
-    margin: auto;
-    width: 97%;
-    padding: 10px;
-  }
+}
+   
  
 
     img{
